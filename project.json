@@ -1,0 +1,12 @@
+{
+  "userId": "u_835a2986c6f775b8",
+  "projectId": "neural-testing-93448a86",
+  "name": "NEURAL-TESTING",
+  "board": {
+    "fqbn": "esp32:esp32:esp32s3"
+  },
+  "selections": null,
+  "serial": null,
+  "createdAt": "2026-09-17T11:20:20.035Z",
+  "updatedAt": "2026-09-17T11:20:20.035Z"
+}
