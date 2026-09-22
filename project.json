@@ -1,12 +1,35 @@
 {
-  "userId": "u_835a2986c6f775b8",
-  "projectId": "neural-testing-93448a86",
+  "schemaVersion": 2,
   "name": "NEURAL-TESTING",
-  "board": {
-    "fqbn": "esp32:esp32:esp32s3"
+  "target": {
+    "framework": "arduino",
+    "board": "esp32:esp32:esp32s3",
+    "options": {
+      "CDCOnBoot": "default",
+      "CPUFreq": "240",
+      "DebugLevel": "none",
+      "DFUOnBoot": "default",
+      "EraseFlash": "none",
+      "EventsCore": "1",
+      "FlashMode": "qio",
+      "FlashSize": "4M",
+      "JTAGAdapter": "default",
+      "LoopCore": "1",
+      "MSCOnBoot": "default",
+      "PartitionScheme": "default",
+      "PSRAM": "disabled",
+      "UploadMode": "default",
+      "UploadSpeed": "921600",
+      "USBMode": "hwcdc",
+      "ZigbeeMode": "default"
+    }
   },
-  "selections": null,
-  "serial": null,
+  "serial": {
+    "baudRate": 115200
+  },
+  "build": {
+    "properties": []
+  },
   "createdAt": "2026-09-17T11:20:20.035Z",
-  "updatedAt": "2026-09-17T11:20:20.035Z"
+  "updatedAt": "2026-09-22T06:43:54.685Z"
 }
